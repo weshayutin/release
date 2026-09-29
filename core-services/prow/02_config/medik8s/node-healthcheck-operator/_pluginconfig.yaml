@@ -1,0 +1,12 @@
+approve:
+- repos:
+  - node-healthcheck-operator
+  require_self_approval: false
+lgtm:
+- repos:
+  - node-healthcheck-operator
+plugins:
+  medik8s/node-healthcheck-operator:
+    plugins:
+    - approve
+
